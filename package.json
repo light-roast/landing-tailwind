@@ -1,0 +1,15 @@
+{
+  "name": "minilanding",
+  "version": "1.0.0",
+  "description": "A project of a mini landing page to showcase Tailwind knowledge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tail": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/estilos.css --watch"
+  },
+  "author": "Daniel Echeverri",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
